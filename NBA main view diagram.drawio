@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2019-11-14T10:37:07.615Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="m31eg798RXxeBtaSlcRN" version="12.2.6" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-14T10:42:00.576Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="A3ktg3nYLKWr6y6iZBwO" version="12.2.6" type="github" pages="1">
   <diagram id="eRS33mubmjeWvHw4FRCH" name="Page-1">
-    <mxGraphModel dx="1168" dy="718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1995" dy="718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -81,6 +81,11 @@
         <mxCell id="0nUr7at8EpXttM-fOZ4W-31" value="$Winner name" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="975" y="250" width="90" height="20" as="geometry"/>
         </mxCell>
+        <mxCell id="0nUr7at8EpXttM-fOZ4W-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="0nUr7at8EpXttM-fOZ4W-44" target="0nUr7at8EpXttM-fOZ4W-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-110" y="380" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="0nUr7at8EpXttM-fOZ4W-44" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="20" y="150" width="390" height="460" as="geometry"/>
         </mxCell>
@@ -101,6 +106,12 @@
         </mxCell>
         <mxCell id="0nUr7at8EpXttM-fOZ4W-52" value="&lt;h1&gt;Functionality&lt;/h1&gt;&lt;p&gt;Calls the NBA API with endpoint &lt;b&gt;&quot;get /games/date&quot; &lt;/b&gt;and stores the games from the last three days&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1180" y="90" width="250" height="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="0nUr7at8EpXttM-fOZ4W-54" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-350" y="220" width="290" height="320" as="geometry"/>
+        </mxCell>
+        <mxCell id="0nUr7at8EpXttM-fOZ4W-55" value="&lt;h1&gt;Functionality&lt;/h1&gt;&lt;p&gt;Calls the NBA API with endpoint &lt;b&gt;&quot;get /standings&quot; &lt;/b&gt;with params&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;span&gt;league: standard&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;seasonyear: 2019&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Divides the result by filtering for conference and sorts the data from best score to worst&lt;/p&gt;&lt;p&gt;Serves the data to child components which are just draw components&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-330" y="250" width="244" height="260" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
