@@ -1,0 +1,119 @@
+<mxfile host="www.draw.io" modified="2019-11-14T10:42:00.576Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="A3ktg3nYLKWr6y6iZBwO" version="12.2.6" type="github" pages="1">
+  <diagram id="eRS33mubmjeWvHw4FRCH" name="Page-1">
+    <mxGraphModel dx="1995" dy="718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="0nUr7at8EpXttM-fOZ4W-51" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="855" y="10" width="575" height="320" as="geometry"/>
+        </mxCell>
+        <mxCell id="0nUr7at8EpXttM-fOZ4W-20" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="20" width="300" height="300" as="geometry"/>
+        </mxCell>
+        <mxCell id="0nUr7at8EpXttM-fOZ4W-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" width="790" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="0nUr7at8EpXttM-fOZ4W-2" value="NBA stats" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="10" width="207" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="0nUr7at8EpXttM-fOZ4W-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="630" width="790" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="0nUr7at8EpXttM-fOZ4W-4" value="by MaticPecovnik&lt;br&gt;github link: asdasdas" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="645" width="207" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="0nUr7at8EpXttM-fOZ4W-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="50" width="790" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="0nUr7at8EpXttM-fOZ4W-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="60" width="90" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="0nUr7at8EpXttM-fOZ4W-10" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="60" width="90" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="0nUr7at8EpXttM-fOZ4W-11" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="60" width="90" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="0nUr7at8EpXttM-fOZ4W-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="60" width="90" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="0nUr7at8EpXttM-fOZ4W-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="60" width="90" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="0nUr7at8EpXttM-fOZ4W-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="60" width="90" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="0nUr7at8EpXttM-fOZ4W-15" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="60" width="90" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="0nUr7at8EpXttM-fOZ4W-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0nUr7at8EpXttM-fOZ4W-16" target="0nUr7at8EpXttM-fOZ4W-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="920" y="90" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0nUr7at8EpXttM-fOZ4W-16" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="60" width="70" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="0nUr7at8EpXttM-fOZ4W-18" value="Scrollable Fields with last weeks games" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="318" y="70" width="190" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="0nUr7at8EpXttM-fOZ4W-21" value="Date" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="30" width="40" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="0nUr7at8EpXttM-fOZ4W-22" value="Home Team" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="910" y="80" width="80" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="0nUr7at8EpXttM-fOZ4W-23" value="Away Team" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="80" width="80" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="0nUr7at8EpXttM-fOZ4W-27" value="$Home Name" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="910" y="105" width="80" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="0nUr7at8EpXttM-fOZ4W-28" value="$Away Name" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="105" width="80" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="0nUr7at8EpXttM-fOZ4W-29" value="$Home Score" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="910" y="180" width="80" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="0nUr7at8EpXttM-fOZ4W-30" value="$Away Score" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="180" width="80" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="0nUr7at8EpXttM-fOZ4W-31" value="$Winner name" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="975" y="250" width="90" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="0nUr7at8EpXttM-fOZ4W-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="0nUr7at8EpXttM-fOZ4W-44" target="0nUr7at8EpXttM-fOZ4W-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-110" y="380" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0nUr7at8EpXttM-fOZ4W-44" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="20" y="150" width="390" height="460" as="geometry"/>
+        </mxCell>
+        <mxCell id="0nUr7at8EpXttM-fOZ4W-46" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="420" y="150" width="385" height="460" as="geometry"/>
+        </mxCell>
+        <mxCell id="0nUr7at8EpXttM-fOZ4W-47" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="30" y="160" width="370" height="210" as="geometry"/>
+        </mxCell>
+        <mxCell id="0nUr7at8EpXttM-fOZ4W-48" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="30" y="380" width="370" height="210" as="geometry"/>
+        </mxCell>
+        <mxCell id="0nUr7at8EpXttM-fOZ4W-49" value="Eastern Conference Standings" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="180" width="40" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="0nUr7at8EpXttM-fOZ4W-50" value="Western Conference Standings" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="400" width="40" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="0nUr7at8EpXttM-fOZ4W-52" value="&lt;h1&gt;Functionality&lt;/h1&gt;&lt;p&gt;Calls the NBA API with endpoint &lt;b&gt;&quot;get /games/date&quot; &lt;/b&gt;and stores the games from the last three days&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="90" width="250" height="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="0nUr7at8EpXttM-fOZ4W-54" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-350" y="220" width="290" height="320" as="geometry"/>
+        </mxCell>
+        <mxCell id="0nUr7at8EpXttM-fOZ4W-55" value="&lt;h1&gt;Functionality&lt;/h1&gt;&lt;p&gt;Calls the NBA API with endpoint &lt;b&gt;&quot;get /standings&quot; &lt;/b&gt;with params&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;span&gt;league: standard&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;seasonyear: 2019&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Divides the result by filtering for conference and sorts the data from best score to worst&lt;/p&gt;&lt;p&gt;Serves the data to child components which are just draw components&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-330" y="250" width="244" height="260" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
