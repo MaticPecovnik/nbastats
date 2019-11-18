@@ -1,0 +1,37 @@
+.gameTile {
+  position: relative;
+  top: 5%;
+  margin: 1%;
+  padding: 0.4%;
+  font-size: 14px;
+  max-width: 22.3%;
+  color: black;
+  background-color: white;
+  border: 2.5px solid rgb(161, 18, 18);
+  border-radius: 20px;
+}
+
+.gameBasicInfo {
+  float: center;
+  font-weight: bolder;
+}
+
+.homeTeam {
+  float: left;
+}
+
+.awayTeam {
+  float: right;
+}
+
+.homeaway {
+  font-size: 10px;
+}
+
+.score {
+  font-size: 16px;
+  font-weight: bolder;
+}
+.names {
+  font-weight: 600;
+}

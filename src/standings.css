@@ -1,0 +1,17 @@
+.chooseConference {
+  background-color: rgb(13, 13, 173);
+  border: none;
+  padding: 2%;
+  color: white;
+  font-weight: bolder;
+  margin-bottom: 2%;
+}
+
+.chooseConference:hover {
+  background-color: rgb(9, 9, 121);
+  border: none;
+  padding: 2%;
+  color: white;
+  font-weight: bolder;
+  margin-bottom: 2%;
+}

@@ -1,0 +1,19 @@
+.gameScrolling {
+  display: inline;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  background-color: rgb(13, 13, 173);
+  opacity: 0.85;
+}
+
+.scrollButton {
+  background-color: rgb(13, 13, 173);
+  padding: 1%;
+  color: white;
+  font-weight: bolder;
+  border: none;
+}
+
+.scrollButton:hover {
+  background-color: rgb(9, 9, 121);
+}
