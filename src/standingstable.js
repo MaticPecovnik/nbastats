@@ -32,36 +32,6 @@ let StandingsTable = props => {
       </tbody>
     </table>
   );
-  /*
-    <div className="container-fluid">
-      {props.standings.map(obj => {
-        return (
-          <div className="row standingsTable" key={obj.rank + obj.logo}>
-            <div className="teamStanding col-xs-1" key={obj.rank}>
-              {obj.rank}.
-            </div>
-            <div className="teamStanding col-xs-2" key={obj.logo}>
-              <img src={obj.logo} alt="team logo" className="teamLogo"></img>
-            </div>
-            <div className="teamStanding col-xs-2" key={obj.name}>
-              {obj.name}
-            </div>
-            <div className="teamStanding col-xs-1" key={obj.shortName}>
-              {obj.shortName}
-            </div>
-            <div className="teamStanding col-xs-1" key={obj.win + obj.name}>
-              {obj.win}
-            </div>
-            <div className="teamStanding col-xs-1" key={obj.loss + obj.logo}>
-              {obj.loss}
-            </div>
-            <div className="teamStanding col-xs-1" key={obj.gamesBehind}>
-              {obj.gamesBehind}
-            </div>
-          </div>
-        );
-      })}
-    </div>*/
 };
 
 export default StandingsTable;

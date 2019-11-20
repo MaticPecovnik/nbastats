@@ -8,23 +8,18 @@ import "./App.css";
 
 const App = () => {
   return (
-    <div className="container-fluid">
-      <div className="flex-column">
-        <div className="col-xs-12">
-          <ResultScroll />
-        </div>
-        <br></br>
-        <div className="row flex-row mainContainer">
-          <div className="standings col-xs-4">
-            <Standings />
-          </div>
-          <div className="search col-xs-8">
-            <Search />
-          </div>
-        </div>
-        <div className="col-xs-12">
-          <Footer />
-        </div>
+    <div className="contentContainer">
+      <div className="resultScroll">
+        <ResultScroll />
+      </div>
+      <div className="standings">
+        <Standings />
+      </div>
+      <div className="search">
+        <Search />
+      </div>
+      <div className="footer">
+        <Footer />
       </div>
     </div>
   );
@@ -34,7 +29,7 @@ export default App;
 
 const Footer = () => {
   return (
-    <div className="footer">
+    <div className="footerHolder">
       <center>
         Made by Matic Pečovnik{"    "}
         <a

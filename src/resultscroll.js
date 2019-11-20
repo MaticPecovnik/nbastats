@@ -73,16 +73,20 @@ let ResultScroll = () => {
       return <div>Loading</div>;
     default: {
       return (
-        <div className="gameScrolling row">
-          <button onClick={handleLeftClick} className="scrollButton">
-            Back
+        <div className="gameScrolling">
+          <button onClick={handleLeftClick} className="scrollButton backButton">
+            {"<"}
           </button>
-          <Gamelet gameData={games[4 * page + 0]} />
-          <Gamelet gameData={games[4 * page + 1]} />
-          <Gamelet gameData={games[4 * page + 2]} />
-          <Gamelet gameData={games[4 * page + 3]} />
-          <button onClick={handleRightClick} className="scrollButton">
-            Next
+          <Gamelet gameData={games[4 * page + 0]} className="result1" />
+          <Gamelet gameData={games[4 * page + 1]} className="result2" />
+          <Gamelet gameData={games[4 * page + 2]} className="result3" />
+          <Gamelet gameData={games[4 * page + 3]} className="result4" />
+          <Gamelet gameData={games[4 * page + 4]} className="result5" />
+          <button
+            onClick={handleRightClick}
+            className="scrollButton nextButton"
+          >
+            {">"}
           </button>
         </div>
       );

@@ -66,22 +66,26 @@ let Standings = () => {
   };
 
   return conference === "west" ? (
-    <div className="tableHolder">
+    <div className="standingsContainer">
       <center>
         <button onClick={handleClick} className="chooseConference">
           Toggle Conference
         </button>
-        <StandingsTable standings={standingsWest} />
       </center>
+      <div className="standingsTable">
+        <StandingsTable standings={standingsWest} />
+      </div>
     </div>
   ) : (
-    <div>
+    <div className="standingsContainer">
       <center>
         <button onClick={handleClick} className="chooseConference">
           Toggle Conference
         </button>
-        <StandingsTable standings={standingsEast} />
       </center>
+      <div className="standingsTable">
+        <StandingsTable standings={standingsEast} />
+      </div>
     </div>
   );
 };

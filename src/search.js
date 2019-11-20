@@ -28,55 +28,49 @@ let Search = () => {
         setPlayerInfo(player);
         axios
           .get(
-            `https://www.balldontlie.io/api/v1/stats?seasons[]=${new Date().getFullYear()}&player_ids[]=${
+            `https://www.balldontlie.io/api/v1/stats?per_page=100&seasons[]=${new Date().getFullYear()}&player_ids[]=${
               player.id
             }`
           )
           .then(response => {
-            let stats = response;
-            console.log(stats);
+            let stats = response.data.data;
+            setPlayerStats(seasonStats(stats));
           })
           .catch(err => console.log(err));
       })
       .catch(err => console.log(err));
   };
 
-  useEffect(() => {
-    console.log(playerInfo);
-  }, [playerInfo]);
-
-  useEffect(() => {
-    console.log(playerStats);
-  }, [playerStats]);
-
   return (
-    <div className="container-fluid searchHolder">
-      <div className="searchForm">
-        <form>
-          <label htmlFor="playerName">
-            <b>Search: </b>
-          </label>
-          <input
-            type="text"
-            placeholder="Enter Player Name"
-            value={playerName}
-            onChange={handleChange}
-            name="playerName"
-            className="search-input"
-            required
-          ></input>
-          <button
-            type="submit"
-            onClick={event => {
-              event.preventDefault();
-              onclickSearch();
-            }}
-            className="search-submit"
-          >
-            Do it!
-          </button>
-        </form>
-      </div>
+    <div className="searchHolder">
+      <center>
+        <div className="searchForm">
+          <form>
+            <label htmlFor="playerName" className="playerName">
+              <b>Search: </b>
+            </label>
+            <input
+              type="text"
+              placeholder="Enter Player Name"
+              value={playerName}
+              onChange={handleChange}
+              name="playerName"
+              className="search-input"
+              required
+            ></input>
+            <button
+              type="submit"
+              onClick={event => {
+                event.preventDefault();
+                onclickSearch();
+              }}
+              className="search-submit"
+            >
+              Do it!
+            </button>
+          </form>
+        </div>
+      </center>
       <div className="statsHolder">
         <Stats playerInfo={playerInfo} playerStats={playerStats} />
       </div>

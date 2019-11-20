@@ -1,28 +1,49 @@
+.contentContainer {
+  display: grid;
+  grid-template-columns: 30% 67%;
+  grid-template-rows: auto auto 5%;
+  grid-template-areas:
+    "results results"
+    "standings search"
+    "footer footer";
+  grid-column-gap: 3%;
+  grid-row-gap: 5.9%;
+  place-content: space-between;
+}
+
+.resultScroll {
+  grid-area: results;
+}
+
 .standings {
-  position: relative;
-  background-color: rgb(13, 13, 173);
-  left: 1%;
-  padding: 1%;
-  border: 3px solid rgb(161, 18, 18);
+  background-color: black;
+  padding: 2%;
+  margin-left: 5%;
+  border: 3px solid white;
   border-radius: 30px;
+  opacity: 0.85;
+  grid-area: standings;
+  width: 100%;
+}
+
+.search {
+  grid-area: search;
+  width: 98%;
+  margin-right: 2%;
+  border: 3px solid white;
+  border-radius: 30px;
+  background-color: black;
   opacity: 0.85;
 }
 
 .footer {
-  position: fixed;
-  width: 100vw;
   background-color: black;
   color: white;
-  bottom: 0;
-  left: 0;
   padding: 0.3%;
+  grid-area: footer;
 }
 
 .footerLink {
   text-decoration: none;
   color: white;
-}
-
-.mainContainer {
-  display: flex;
 }
