@@ -6,15 +6,15 @@ let GameTile = props => {
 
   if (props.gameData !== null && props.gameData !== undefined) {
     return (
-      <div className="gameTile container-fluid">
-        <div className="gameBasicInfo col-12">
+      <div className="gameTile">
+        <div className="gameBasicInfo">
           <center>
             {props.gameData[1].slice(0, 10)}
             <br></br>
             {props.gameData[2].city}
           </center>
         </div>
-        <div className="homeTeam col-6">
+        <div className="homeTeam">
           <center>
             <span className="homeaway">Home team</span>
             <br></br>
@@ -35,7 +35,7 @@ let GameTile = props => {
             </span>
           </center>
         </div>
-        <div className="awayTeam col-6">
+        <div className="awayTeam">
           <center>
             <span className="homeaway">Away team</span>
             <br></br>

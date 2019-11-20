@@ -36,14 +36,16 @@ const seasonStats = stats => {
   playerStats.stats = {
     ...playerStats.stats,
     fg3_perc:
-      (Math.round((playerStats.stats.fg3m / playerStats.stats.fg3a) * 10) /
-        10) *
+      (Math.round((playerStats.stats.fg3m / playerStats.stats.fg3a) * 1000) /
+        1000) *
       100,
     fg_perc:
-      (Math.round((playerStats.stats.fgm / playerStats.stats.fga) * 10) / 10) *
+      (Math.round((playerStats.stats.fgm / playerStats.stats.fga) * 1000) /
+        1000) *
       100,
     ft_perc:
-      (Math.round((playerStats.stats.ftm / playerStats.stats.fta) * 10) / 10) *
+      (Math.round((playerStats.stats.ftm / playerStats.stats.fta) * 1000) /
+        1000) *
       100
   };
 

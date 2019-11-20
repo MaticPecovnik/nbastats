@@ -71,9 +71,7 @@ let Search = () => {
           </form>
         </div>
       </center>
-      <div className="statsHolder">
-        <Stats playerInfo={playerInfo} playerStats={playerStats} />
-      </div>
+      <Stats playerInfo={playerInfo} playerStats={playerStats} />
     </div>
   );
 };

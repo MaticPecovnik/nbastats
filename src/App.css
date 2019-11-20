@@ -7,8 +7,9 @@
     "standings search"
     "footer footer";
   grid-column-gap: 3%;
-  grid-row-gap: 5.9%;
   place-content: space-between;
+  width: 100vw;
+  height: 100vh;
 }
 
 .resultScroll {

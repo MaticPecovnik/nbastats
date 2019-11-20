@@ -1,15 +1,19 @@
 import React from "react";
+import "./stats.css";
 //import Chart from "chart.js";
 
 const Stats = props => {
   console.log(props);
+  console.log(props.playerInfo.first_name);
 
   if (props.playerInfo === {} && props.playerStats === {}) {
-    console.log(props.playerInfo);
     return null;
   } else {
-    console.log(true);
-    return <div className="basicInfo">{props.playerStats.first_name}</div>;
+    return (
+      <div className="statsHolder">
+        <div className="basicInfo">{props.playerInfo.first_name}</div>
+      </div>
+    );
   }
 };
 
