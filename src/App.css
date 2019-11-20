@@ -22,7 +22,7 @@
   margin-left: 5%;
   border: 3px solid white;
   border-radius: 30px;
-  opacity: 0.85;
+  opacity: 0.9;
   grid-area: standings;
   width: 100%;
 }
@@ -34,7 +34,7 @@
   border: 3px solid white;
   border-radius: 30px;
   background-color: black;
-  opacity: 0.85;
+  opacity: 0.9;
 }
 
 .footer {

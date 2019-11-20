@@ -36,7 +36,10 @@ const Footer = () => {
           href="https://github.com/MaticPecovnik/nbastats"
           className="footerLink fa fa-github"
           alt="github"
-        ></a>
+        >
+          {" "}
+          Github
+        </a>
       </center>
     </div>
   );

@@ -1,7 +1,48 @@
-.basicInfo {
-  background-color: white;
+.statsHolder {
+  display: grid;
+  grid-template-columns: 55% auto;
+  grid-template-rows: 38% auto;
+  grid-template-areas:
+    "info stats"
+    "graph stats";
+  grid-column-gap: 1%;
+  grid-row-gap: 2%;
+  place-content: center;
+  width: 100%;
+  opacity: 1;
+  color: black;
 }
 
-.statsHolder {
+.basicInfo {
   background-color: white;
+  color: black;
+  grid-area: info;
+  margin-left: 3%;
+  font-weight: bold;
+}
+.stats {
+  background-color: white;
+  grid-area: stats;
+  margin-right: 3%;
+  font-weight: bold;
+  padding-top: 4%;
+  display: flex;
+  place-content: center;
+}
+
+.infoTable {
+  table-layout: fixed;
+  width: 100%;
+}
+
+.statsTable {
+  table-layout: fixed;
+  width: 90%;
+  height: 90%;
+  margin: 3%;
+}
+
+.statsGraph {
+  background-color: white;
+  margin-left: 3%;
 }

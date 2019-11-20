@@ -1,14 +1,13 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import axios from "axios";
 import getPlayer from "./getCorrectPlayerFromAPI";
-import seasonStats from "./seasonStats";
 import Stats from "./stats";
 import "./search.css";
 
 let Search = () => {
   const [playerName, setPlayerName] = useState("");
-  const [playerInfo, setPlayerInfo] = useState({});
-  const [playerStats, setPlayerStats] = useState({});
+  const [playerInfo, setPlayerInfo] = useState(undefined);
+  const [playerStats, setPlayerStats] = useState(undefined);
 
   const handleChange = event => {
     setPlayerName(event.target.value);
@@ -34,7 +33,7 @@ let Search = () => {
           )
           .then(response => {
             let stats = response.data.data;
-            setPlayerStats(seasonStats(stats));
+            setPlayerStats(stats);
           })
           .catch(err => console.log(err));
       })
@@ -70,8 +69,8 @@ let Search = () => {
             </button>
           </form>
         </div>
+        <Stats playerInfo={playerInfo} playerStats={playerStats} />
       </center>
-      <Stats playerInfo={playerInfo} playerStats={playerStats} />
     </div>
   );
 };
