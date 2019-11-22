@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-size: minmax(2vw, 1vh);
+  font-size: 1.1vw;
 }
 
 code {
@@ -14,4 +14,10 @@ body {
   background-image: url(https://cdn.nba.net/nba-drupal-prod/styles/landscape/s3/2018-08/leaguev3.jpeg?itok=j-c6KHL_);
   background-size: cover;
   background-attachment: fixed;
+}
+
+@media (max-width: 1200px) {
+  * {
+    font-size: 2vw;
+  }
 }

@@ -45,3 +45,49 @@
   background-color: white;
   margin-left: 3%;
 }
+
+@media (max-width: 1200px) {
+  .statsHolder {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 19% 40% 40%;
+    grid-template-areas:
+      "info"
+      "stats"
+      "graph";
+    grid-row-gap: 1%;
+    opacity: 1;
+    color: black;
+  }
+
+  .basicInfo {
+    background-color: white;
+    color: black;
+    grid-area: info;
+    width: 60vw;
+    margin-left: 13.3vw;
+  }
+  .stats {
+    background-color: white;
+    grid-area: stats;
+    width: 60vw;
+    padding: 0;
+  }
+
+  .infoTable {
+    table-layout: fixed;
+    width: 100%;
+  }
+
+  .statsTable {
+    table-layout: default;
+    width: 100%;
+  }
+
+  .statsGraph {
+    background-color: white;
+    width: 80vw;
+    height: 36vh;
+    margin-left: 4vw;
+  }
+}

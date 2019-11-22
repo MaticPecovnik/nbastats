@@ -55,7 +55,7 @@
   .contentContainer {
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: 25vh auto 90vh 5vh;
+    grid-template-rows: 25vh auto 100vh 5vh;
     grid-template-areas:
       "results"
       "standings"
@@ -71,14 +71,14 @@
     border-radius: 30px;
     opacity: 0.9;
     grid-area: standings;
-    width: 80vw;
-    margin-left: 10vw;
+    width: 90vw;
+    margin-left: 5vw;
   }
 
   .search {
     grid-area: search;
-    width: 80vw;
-    margin-left: 10vw;
+    width: 90vw;
+    margin-left: 5vw;
     height: 100%;
     border: 3px solid white;
     border-radius: 30px;
