@@ -1,4 +1,4 @@
 .teamLogo {
-  width: 25px;
-  height: 20px;
+  width: 2vw;
+  height: calc(1.5 * 1vw);
 }

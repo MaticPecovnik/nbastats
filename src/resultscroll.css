@@ -7,17 +7,17 @@
   grid-template-areas: "backButton result1 result2 result3 result4 result5 nextButton";
   grid-column-gap: 0.25%;
   padding: 0.25%;
+  height: 100%;
 }
 
 .scrollButton {
-  font-size: 30px;
   background-color: rgb(211, 19, 19);
   padding: 1%;
   color: white;
   font-weight: bolder;
   border: 3px solid rgb(211, 19, 19);
   border-radius: 10px;
-  transition: all 1s;
+  transition: all 0.2s;
 }
 
 .scrollButton:hover {
@@ -43,7 +43,6 @@
 .result4 {
   grid-area: result4;
 }
-
 .result5 {
   grid-area: result5;
 }

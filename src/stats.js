@@ -113,7 +113,7 @@ const Stats = props => {
           </center>
         </div>
         <div className="statsGraph">
-          <Line data={plotData} />
+          <Line data={plotData} layout={{ font: { size: "8px" } }} />
         </div>
       </div>
     );

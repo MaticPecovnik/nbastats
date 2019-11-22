@@ -1,7 +1,7 @@
 .statsHolder {
   display: grid;
   grid-template-columns: 55% auto;
-  grid-template-rows: 38% auto;
+  grid-template-rows: 33% auto;
   grid-template-areas:
     "info stats"
     "graph stats";
@@ -18,13 +18,11 @@
   color: black;
   grid-area: info;
   margin-left: 3%;
-  font-weight: bold;
 }
 .stats {
   background-color: white;
   grid-area: stats;
   margin-right: 3%;
-  font-weight: bold;
   padding-top: 4%;
   display: flex;
   place-content: center;
@@ -33,6 +31,7 @@
 .infoTable {
   table-layout: fixed;
   width: 100%;
+  margin-top: 2%;
 }
 
 .statsTable {
