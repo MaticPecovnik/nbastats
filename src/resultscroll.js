@@ -7,8 +7,9 @@ let ResultScroll = () => {
   const [games, setGames] = useState(null);
   const [page, setPage] = useState(0);
   const getToday = param => {
-    const today = new Date();
-    let dd = today.getDate() - param;
+    let today = new Date();
+    today.setDate(today.getDate() - param);
+    let dd = today.getDate();
     let mm = today.getMonth() + 1; //January is 0!
 
     const yyyy = today.getFullYear();
@@ -23,7 +24,7 @@ let ResultScroll = () => {
   useEffect(() => {
     const request = {
       startDate: getToday(5),
-      endData: getToday(1)
+      endData: getToday(0)
     };
     axios
       .get(
